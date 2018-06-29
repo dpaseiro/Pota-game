@@ -152,7 +152,8 @@ Sven.prototype.canMove = function(futurex, futurey){
        return false}
      if(futurey <= 0)
     {
-      console.log('you winn')
+     alert('Well done. You win!');
+      // console.log('you winn')
       return false
     }
     return true;
